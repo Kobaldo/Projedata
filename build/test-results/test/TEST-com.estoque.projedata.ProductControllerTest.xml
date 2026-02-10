@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.estoque.projedata.ProductControllerTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-02-10T13:56:33" hostname="DESKTOP-QDVGD1J" time="0.501">
+  <properties/>
+  <testcase name="testGetProductionSuccessfully()" classname="com.estoque.projedata.ProductControllerTest" time="0.277"/>
+  <testcase name="testCreateProduct()" classname="com.estoque.projedata.ProductControllerTest" time="0.176"/>
+  <testcase name="testUpdateProduct()" classname="com.estoque.projedata.ProductControllerTest" time="0.013"/>
+  <testcase name="testDeleteProduct()" classname="com.estoque.projedata.ProductControllerTest" time="0.007"/>
+  <testcase name="testListAllProducts()" classname="com.estoque.projedata.ProductControllerTest" time="0.01"/>
+  <testcase name="testDeleteProductNotFound()" classname="com.estoque.projedata.ProductControllerTest" time="0.008"/>
+  <system-out><![CDATA[10:56:29.145 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.estoque.projedata.ProductControllerTest]: ProductControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10:56:29.427 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.estoque.projedata.ProjedataApplication for test class com.estoque.projedata.ProductControllerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.5)
+
+2026-02-10T10:56:30.159-03:00  INFO 9708 --- [projedata] [    Test worker] c.e.projedata.ProductControllerTest      : Starting ProductControllerTest using Java 17.0.12 with PID 9708 (started by Kobaldo in C:\Users\Pichau\Downloads\projedata\projedata)
+2026-02-10T10:56:30.161-03:00  INFO 9708 --- [projedata] [    Test worker] c.e.projedata.ProductControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2026-02-10T10:56:33.028-03:00  INFO 9708 --- [projedata] [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-02-10T10:56:33.028-03:00  INFO 9708 --- [projedata] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-02-10T10:56:33.031-03:00  INFO 9708 --- [projedata] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2026-02-10T10:56:33.071-03:00  INFO 9708 --- [projedata] [    Test worker] c.e.projedata.ProductControllerTest      : Started ProductControllerTest in 3.487 seconds (process running for 5.482)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

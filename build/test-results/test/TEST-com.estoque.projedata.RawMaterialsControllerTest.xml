@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.estoque.projedata.RawMaterialsControllerTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-02-10T13:56:37" hostname="DESKTOP-QDVGD1J" time="0.052">
+  <properties/>
+  <testcase name="testCreateRawMaterial()" classname="com.estoque.projedata.RawMaterialsControllerTest" time="0.012"/>
+  <testcase name="testUpdateRawMaterial()" classname="com.estoque.projedata.RawMaterialsControllerTest" time="0.007"/>
+  <testcase name="testListAllRawMaterials()" classname="com.estoque.projedata.RawMaterialsControllerTest" time="0.014"/>
+  <testcase name="testDeleteRawMaterial()" classname="com.estoque.projedata.RawMaterialsControllerTest" time="0.008"/>
+  <testcase name="testDeleteRawMaterialNotFound()" classname="com.estoque.projedata.RawMaterialsControllerTest" time="0.005"/>
+  <system-out><![CDATA[2026-02-10T10:56:37.516-03:00  INFO 9708 --- [projedata] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.estoque.projedata.RawMaterialsControllerTest]: RawMaterialsControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-02-10T10:56:37.520-03:00  INFO 9708 --- [projedata] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.estoque.projedata.ProjedataApplication for test class com.estoque.projedata.RawMaterialsControllerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.5)
+
+2026-02-10T10:56:37.565-03:00  INFO 9708 --- [projedata] [    Test worker] c.e.p.RawMaterialsControllerTest         : Starting RawMaterialsControllerTest using Java 17.0.12 with PID 9708 (started by Kobaldo in C:\Users\Pichau\Downloads\projedata\projedata)
+2026-02-10T10:56:37.565-03:00  INFO 9708 --- [projedata] [    Test worker] c.e.p.RawMaterialsControllerTest         : No active profile set, falling back to 1 default profile: "default"
+2026-02-10T10:56:37.786-03:00  INFO 9708 --- [projedata] [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-02-10T10:56:37.786-03:00  INFO 9708 --- [projedata] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-02-10T10:56:37.787-03:00  INFO 9708 --- [projedata] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2026-02-10T10:56:37.789-03:00  INFO 9708 --- [projedata] [    Test worker] c.e.p.RawMaterialsControllerTest         : Started RawMaterialsControllerTest in 0.269 seconds (process running for 10.205)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
